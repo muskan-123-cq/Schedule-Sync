@@ -1,0 +1,138 @@
+img{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+/* #teacherdiv{
+display: flex;
+min-height: 100vh;
+font-family: Arial, sans-serif;
+} */
+/* #teacher-table */
+#details {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    /* display: block; Change between block/none as needed */
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #fff;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #eee;
+}
+#mainhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #eee;
+    height: 70px;
+}
+
+#heading {
+    font-size: 40px;
+    color: skyblue;
+}
+
+#time {
+    font-size: 20px;
+    color: black;
+}
+
+
+#side {
+    width: 250px;
+    padding: 60px 20px;
+    background-color: #f0f0f0;
+    /* width: 250px;
+    padding: 40px 20px; */
+    background-color: #f0f0f0;
+    display: inline;
+
+}
+#side h2, #side h4 {
+    margin-bottom: 15px;
+}
+#side a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#side div {
+    margin: 10px 0;
+}
+#totallec,#totaldone,#totalleft{
+display: inline-block;
+margin: 30px;
+border: 1px solid grey;
+border-radius: 4%;
+height: 50px;
+width: 100px;
+text-align: center;
+/* background-color: antiquewhite; */
+}
+#event{
+    background-color: blue;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* #details */
+#teacher-table{
+    display: none;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 20px;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+input, select, button {
+    display: block;
+    margin: 10px 0;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.inside {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 13px;
+    text-align: center;
+}
+#teacherdiv{
+    display: flex;
+    min-height: 100vh;
+}
+#content {
+    flex: 1;
+    padding: 20px;
+  }
+  #teacherlogoid{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    text-align: center;
+  }
+ 

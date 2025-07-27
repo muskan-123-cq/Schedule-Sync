@@ -1,0 +1,154 @@
+
+#maindiv {
+    display: flex;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#side {
+    width: 250px;
+    padding: 60px 20px;
+    background-color: #f0f0f0;
+    /* Optional border: */
+    /* border-right: 2px solid #ccc; */
+}
+
+#side h2, #side h4 {
+    margin-bottom: 15px;
+}
+#side a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#side div {
+    margin: 10px 0;
+}
+#event {
+    background-color: blue;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#formdiv {
+    display: none;
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 20px;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+    display: block;
+    margin: 10px 0;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+
+#table1 {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #eee;
+}
+#heading{
+    height: 70px;
+    width: auto;
+    background-color: #eee;
+    color: skyblue;
+   font-size: 50px;
+}
+
+img {
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+.inside {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 13px;
+    text-align: center;
+}
+#maindiv {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  
+  #side {
+    width: 250px;
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    display: inline;
+  }
+  
+  #content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  #formdiv {
+    display: none; 
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #table1 {
+    display: block;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+#mainhead {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0 20px;
+    background-color: #eee;
+    height: 70px;
+}
+
+#heading {
+    font-size: 40px;
+    color: skyblue;
+}
+
+#time {
+    font-size: 20px;
+    color: black;
+}
+#teacherlogoid{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    text-align: center;
+    margin: 50px;
+  }
