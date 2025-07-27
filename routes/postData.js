@@ -1,3 +1,4 @@
+//postdata.js
 const express=require('express');
 const {printLectures, setCurrentUser} = require('../controllers/postData');
 const postRouter=express.Router();

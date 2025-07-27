@@ -1,3 +1,4 @@
+//postdata.js
 const fs = require('fs');
 const path = 'teacher.json';
 
